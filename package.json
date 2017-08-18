@@ -1,20 +1,26 @@
 
 {
-  "name": "react-native-crop-view",
-  "version": "1.0.0",
-  "description": "",
+  "name": "react-native-cropview",
+  "version": "0.0.1",
+  "description": "Crop View for Adjusting Image",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clozr/react-native-crop-view.git"
+  },
   "keywords": [
     "react-native"
   ],
-  "author": "dev@liveink.me",
+  "author": "Seraj Ahmad, Swarup Mahanty for LiveInk at https://liveink.me",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clozr/react-native-crop-view/issues"
+  },
   "peerDependencies": {
     "react-native": "^0.41.2",
     "react-native-windows": "0.41.0-rc.1"
-
   }
 }
