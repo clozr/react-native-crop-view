@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46B30BAD1F57CF1000B50CAB /* CropControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B30BA81F57CF1000B50CAB /* CropControl.m */; };
+		46B30BAF1F57CF1000B50CAB /* CropRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B30BAC1F57CF1000B50CAB /* CropRectangle.m */; };
+		46B30BB21F57CFB800B50CAB /* CropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B30BB11F57CFB800B50CAB /* CropView.m */; };
+		46B30BB61F57CFCA00B50CAB /* FlexRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B30BB41F57CFCA00B50CAB /* FlexRectangle.m */; };
 		B3E7B58A1CC2AC0600A0062D /* CropViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* CropViewManager.m */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +28,15 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libCropView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCropView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		46B30BA71F57CF1000B50CAB /* CropControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CropControl.h; sourceTree = "<group>"; };
+		46B30BA81F57CF1000B50CAB /* CropControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CropControl.m; sourceTree = "<group>"; };
+		46B30BAB1F57CF1000B50CAB /* CropRectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CropRectangle.h; sourceTree = "<group>"; };
+		46B30BAC1F57CF1000B50CAB /* CropRectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CropRectangle.m; sourceTree = "<group>"; };
+		46B30BB01F57CFB800B50CAB /* CropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CropView.h; sourceTree = "<group>"; };
+		46B30BB11F57CFB800B50CAB /* CropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CropView.m; sourceTree = "<group>"; };
+		46B30BB31F57CFCA00B50CAB /* FlexRectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexRectangle.h; sourceTree = "<group>"; };
+		46B30BB41F57CFCA00B50CAB /* FlexRectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlexRectangle.m; sourceTree = "<group>"; };
+		46B30BB51F57CFCA00B50CAB /* Globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Globals.h; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* CropViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CropViewManager.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* CropViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CropViewManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -50,6 +63,15 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				46B30BB01F57CFB800B50CAB /* CropView.h */,
+				46B30BB11F57CFB800B50CAB /* CropView.m */,
+				46B30BA71F57CF1000B50CAB /* CropControl.h */,
+				46B30BB31F57CFCA00B50CAB /* FlexRectangle.h */,
+				46B30BB41F57CFCA00B50CAB /* FlexRectangle.m */,
+				46B30BB51F57CFCA00B50CAB /* Globals.h */,
+				46B30BA81F57CF1000B50CAB /* CropControl.m */,
+				46B30BAB1F57CF1000B50CAB /* CropRectangle.h */,
+				46B30BAC1F57CF1000B50CAB /* CropRectangle.m */,
 				B3E7B5881CC2AC0600A0062D /* CropViewManager.h */,
 				B3E7B5891CC2AC0600A0062D /* CropViewManager.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
@@ -112,7 +134,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3E7B58A1CC2AC0600A0062D /* CropView.m in Sources */,
+				46B30BB21F57CFB800B50CAB /* CropView.m in Sources */,
+				B3E7B58A1CC2AC0600A0062D /* CropViewManager.m in Sources */,
+				46B30BAD1F57CF1000B50CAB /* CropControl.m in Sources */,
+				46B30BAF1F57CF1000B50CAB /* CropRectangle.m in Sources */,
+				46B30BB61F57CFCA00B50CAB /* FlexRectangle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +223,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
-				"$(inherited)",
+					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",

@@ -1,7 +1,7 @@
 
 {
   "name": "react-native-cropview",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Crop View for Adjusting Image",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,6 @@
     "url": "https://github.com/clozr/react-native-crop-view/issues"
   },
   "peerDependencies": {
-    "react-native": "^0.41.2",
-    "react-native-windows": "0.41.0-rc.1"
+    "react-native": "^0.41.2"
   }
 }
